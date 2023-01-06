@@ -1,0 +1,21 @@
+.elementor-550 .elementor-element.elementor-element-7226caa4 > .elementor-widget-container{margin:40px 0px 0px 0px;}.elementor-550 .elementor-element.elementor-element-2d09966f > .elementor-widget-container{margin:0px 120px 0px 120px;border-radius:20px 20px 20px 20px;box-shadow:0px 0px 20px 5px rgba(175.5, 175.5, 175.5, 0.35);}.elementor-550 .elementor-element.elementor-element-3390e762{text-align:center;}.elementor-550 .elementor-element.elementor-element-3390e762 .elementor-heading-title{color:#FFFFFF;font-family:"Bebas Neue", Sans-serif;font-size:20px;font-weight:800;}.elementor-550 .elementor-element.elementor-element-5ae861d8 .elementor-button{font-family:"Montserrat", Sans-serif;font-weight:700;background-color:transparent;background-image:linear-gradient(180deg, #00E01F 0%, #118D00 100%);border-radius:30px 30px 30px 30px;}.elementor-550 .elementor-element.elementor-element-60ed043 > .elementor-widget-container{margin:230px 450px 0px 450px;}.elementor-550 .elementor-element.elementor-element-5644dc60 .elementor-icon-wrapper{text-align:center;}.elementor-550 .elementor-element.elementor-element-5644dc60 .elementor-icon i, .elementor-550 .elementor-element.elementor-element-5644dc60 .elementor-icon svg{transform:rotate(0deg);}:root{--page-title-display:none;}body.elementor-page-550:not(.elementor-motion-effects-element-type-background), body.elementor-page-550 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#131313;}@media(max-width:767px){.elementor-550 .elementor-element.elementor-element-7226caa4 > .elementor-widget-container{margin:30px 0px 0px 0px;}.elementor-550 .elementor-element.elementor-element-2d09966f > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-550 .elementor-element.elementor-element-3390e762 .elementor-heading-title{font-size:15px; margin-top: 5%;}.elementor-550 .elementor-element.elementor-element-3390e762 > .elementor-widget-container{margin:-10px 0px 0px 0px;}.elementor-550 .elementor-element.elementor-element-60ed043 > .elementor-widget-container{margin:100px 140px 0px 140px;}}/* Start custom CSS for button, class: .elementor-element-5ae861d8 */.elementor-550 .elementor-element.elementor-element-5ae861d8 div div a {
+	background: linear-gradient(180deg,#D52FA4, #FF9009);
+	box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.5);
+	animation: piscando .7s;
+	animation-iteration-count: infinite;
+}
+
+.elementor-550 .elementor-element.elementor-element-5ae861d8 div div a:hover {
+	background: linear-gradient(0deg,#06DB13, #028D0A);
+	box-shadow: 0px 35px 40px 0px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes piscando {
+    0% {
+        transform: scale(1);
+    } 50% {
+        transform: scale(1.1);
+    } 100% {
+        transform: scale(1);
+    }
+}/* End custom CSS */
